@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 values.put("name", "People");
                 values.put("author", "Davin");
                 values.put("pages", 454);
-                values.put("price",16.96);
+                values.put("price",55.55);
                 Uri newUri = getContentResolver().insert(uri, values);
                 newId = newUri.getPathSegments().get(1);
 
